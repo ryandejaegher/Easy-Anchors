@@ -25,3 +25,5 @@ var splitText = function(element) {
 
     console.log(split)
 }
+
+var headers = document.qu
