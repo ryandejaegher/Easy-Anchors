@@ -22,7 +22,7 @@ var setHeaderId = function(headers) {
 
 var createAnchorID = function(element) {
     var removeApostrophe = element.textContent.replace("^\w",'')
-    var splitAtWhitespace = removeApostrophe.textContent.split(/[\s,']/gi);
+    var splitAtWhitespace = removeApostrophe.textContent.split(/[\s]/gi);
     
     console.log(splitAtWhitespace)
 }
