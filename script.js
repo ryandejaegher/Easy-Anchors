@@ -21,10 +21,10 @@ var setHeaderId = function(headers) {
 
 
 var createAnchorID = function(element) {
-    var removeApostrophe = element.textContent.replace(/\w,'')
-    var splitAtWhitespace = removeApostrophe.split(/[\s]/gi);
-    console.log(remove)
-    console.log(splitAtWhitespace)
+    var removeWhitespace = element.textContent.replace("^\w",'')
+    var split = element.textContent.split(/[\s,']/gi);
+    
+    console.log(removeWhitespacer)
 }
 
 var header = document.querySelector('h4');
