@@ -15,8 +15,9 @@ var easyAnchor = (function(){
             if(item.nodeType===3){
             text = item
             break 
+            }
         }
-        }
+        
 
 
         var removeApostrophe = item.replace(/[^\w ]/g," ");
