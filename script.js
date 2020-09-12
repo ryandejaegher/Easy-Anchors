@@ -30,7 +30,7 @@ var easyAnchor = (function(){
 })();
 
 
-easyAnchor.init()
+easyAnchor.init();
 
 (function () {
     const template = document.createElement("template");
