@@ -20,7 +20,7 @@ var setHeaderId = function(headers) {
 }
 
 
-var splitText = function(element) {
+var createID = function(element) {
     var replace 
     var lettersOnly = element.textContent.match(/[a-zA-Z]+/g)
     var split = element.textContent.split(/[\s,']/gi);
