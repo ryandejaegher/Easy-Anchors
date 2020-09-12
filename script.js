@@ -1,5 +1,7 @@
 var module = (function(){
     var name = "Jeff";
-    return name;
+    var sayName = function() {
+        hel
+    }
 })();
 
