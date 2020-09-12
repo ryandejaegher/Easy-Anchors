@@ -20,7 +20,7 @@ var anchorModule = (function(){
     }
 
     var hi = function(message) {
-        console.log
+        console.log('Hi ' + message)
     }
 
 
