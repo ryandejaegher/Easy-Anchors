@@ -48,7 +48,7 @@ easyAnchor.init();
     content: '|';
     animation: cursor 0.5s ease infinite alternate;
     display: inline-block;
-    transform: translateY(0px) scale(1.2);
+    transform: translateY(0px) scale(2);
   }
   
   .typewriter {
