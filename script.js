@@ -8,4 +8,4 @@
 
 })();
 
-console.log(window)
+console.log(window.location.pathname)
