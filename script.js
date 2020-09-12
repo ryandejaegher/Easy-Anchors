@@ -8,4 +8,4 @@
 
 })();
 
-var name="ryan";
+console.log(window)
