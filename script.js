@@ -4,8 +4,7 @@
 
     // Replace Whitespace
     var splitText = function(text){}
-
+    var name = "ryan";
 
 })();
 
-var name = "ryan";
