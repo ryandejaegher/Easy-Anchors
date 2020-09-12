@@ -23,7 +23,7 @@ var setHeaderId = function(headers) {
 
 var createAnchorID = function(element) {
     var removeApostrophe = element.textContent.replace(/[^\w ]/g,"");
-    var lowerCaseString = element.textContent.match(/[a-zA-Z]+/g)
+    var lowerCaseString = element.text.match(/[a-zA-Z]+/g)
     console.log(lowerCaseString)
 }
 
