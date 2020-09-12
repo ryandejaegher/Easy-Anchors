@@ -23,7 +23,7 @@ var setHeaderId = function(headers) {
 var splitText = function(element) {
     var split = element.textContent.split('\/s/g');
     
-    console.log(split
+    console.log(split)
 }
 
 var header = document.querySelector('h2');
