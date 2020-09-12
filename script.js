@@ -32,4 +32,4 @@ var easyAnchor = (function(){
 })();
 
 
-anchorModule.init()
+easyAnchor.init()
