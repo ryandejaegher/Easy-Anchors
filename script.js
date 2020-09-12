@@ -20,12 +20,4 @@ var anchorModule = (function(){
 })();
 
 
-
-
-
-
-
-
-var header = document.querySelector('h4');
-
 setHeaderId(headers)
