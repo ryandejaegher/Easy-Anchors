@@ -21,7 +21,7 @@ var anchorModule = (function(){
 
 
     return {
-        init
+        init:init
     }
 })();
 
