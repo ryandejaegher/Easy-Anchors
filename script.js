@@ -21,6 +21,7 @@ var setHeaderId = function(headers) {
 
 
 var splitText = function(element) {
+    var lettersOnly = element.textContent.match
     var split = element.textContent.split(/[\s,']/gi);
     
     console.log(split)
