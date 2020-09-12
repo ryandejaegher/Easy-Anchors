@@ -7,6 +7,7 @@ var easyAnchor = (function(){
             element.id = createAnchorID(element);
         });
     }
+    
 
     var createAnchorID = function(element) {
         var removeApostrophe = element.textContent.replace(/[^\w ]/g," ");
