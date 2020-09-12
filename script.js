@@ -24,7 +24,7 @@ var createAnchorID = function(element) {
     var removeApostrophe = element.textContent.replace("^\w",'')
     var splitAtWhitespace = removeApostrophe.textContent.split(/[\s,']/gi);
     
-    console.log(removeWhitespacer)
+    console.log(splitAtWhitespace)
 }
 
 var header = document.querySelector('h4');
