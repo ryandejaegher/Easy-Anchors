@@ -21,7 +21,7 @@ var setHeaderId = function(headers) {
 
 
 var createAnchorID = function(element) {
-    var removeWhitespace = element.textContent.replace(\s,'-')
+    var removeWhitespace = element.textContent.replace("'",'')
     var lettersOnly = element.textContent.match(/[a-zA-Z]+/g)
     var split = element.textContent.split(/[\s,']/gi);
     
