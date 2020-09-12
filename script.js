@@ -23,7 +23,7 @@ var setHeaderId = function(headers) {
 var createAnchorID = function(element) {
     var removeApostrophe = element.textContent.replace(^\w,'')
     var lettersOnly = removeApostrophe.match(/[a-zA-Z]+/g)
-    var split = element.textContent.split(/[\s,']/gi);
+    var split = element.textContent.split
     
     console.log(lettersOnly)
 }
