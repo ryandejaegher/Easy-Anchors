@@ -5,7 +5,6 @@ var easyAnchor = (function(){
     var setHeaderId = function(headers) {
         headers.forEach(element => {
             element.id = createAnchorID(element);
-            console.log(element.id)
         });
     }
 
