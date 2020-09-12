@@ -21,7 +21,7 @@ var setHeaderId = function(headers) {
 
 
 var splitText = function(element) {
-    var split = element.textContent.replace(/\s/g,'-');
+    var split = element.textContent.mat('/[a-zA-Z]/gi');
     
     console.log(split)
 }
