@@ -20,4 +20,6 @@ var setHeaderId = function(headers) {
 }
 
 
-var 
+var splitText = function(text) {
+    
+}
