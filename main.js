@@ -10,6 +10,15 @@ var easyAnchor = (function(){
     
 
     var createAnchorID = function(element) {
+        
+        for(let item of element.childNodes) {
+            if(item.nodeType===3){
+            item
+            break 
+        }
+        }
+
+
         var removeApostrophe = element.textContent.replace(/[^\w ]/g," ");
         
         var lowerCaseString = removeApostrophe.match(/[a-zA-Z]+/g).join('-').toLowerCase();
