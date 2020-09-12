@@ -25,7 +25,7 @@ var createAnchorID = function(element) {
     var lettersOnly = removeApostrophe.match(/[a-zA-Z]+/g);
 
     
-    console.log(removeApostrophe)
+    console.log(lettersOnly)
 }
 
 var header = document.querySelector('h4');
