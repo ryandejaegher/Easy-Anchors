@@ -29,5 +29,7 @@ var easyAnchor = (function(){
     }
 })();
 
+window.addEventListener('load', function(){
+    easyAnchor.init();
+})
 
-easyAnchor.init();
