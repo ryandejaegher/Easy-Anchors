@@ -12,6 +12,7 @@ var anchorModule = (function(){
     var createAnchorID = function(element) {
         var removeApostrophe = element.textContent.replace(/[^\w ]/g,"");
         var lowerCaseString = removeApostrophe.match(/[a-zA-Z]+/g).join('-').toLowerCase()
+        console.log(lowerCaseString)
         return lowerCaseString
     }
 
