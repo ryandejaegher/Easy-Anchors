@@ -21,5 +21,7 @@ var setHeaderId = function(headers) {
 
 
 var splitText = function(text) {
-    
+et
+
+    console.log()
 }
