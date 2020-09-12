@@ -1,5 +1,5 @@
 var module = (function(){
-    var name = "Jeff";
+    var name = name;
     var sayName = function() {
         console.log('HI ' + name)
     }
@@ -8,5 +8,5 @@ var module = (function(){
         name,
         sayName
     }
-})();
+})('ryan');
 
