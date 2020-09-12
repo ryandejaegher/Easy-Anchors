@@ -21,7 +21,7 @@ var setHeaderId = function(headers) {
 
 
 var splitText = function(element) {
-    text.textConten
+    text.textContent
 
     console.log()
 }
