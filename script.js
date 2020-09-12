@@ -6,7 +6,7 @@ var module = (function(){
 
     return  {
         name,
-        
+        sayName
     }
 })();
 
