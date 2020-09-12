@@ -15,9 +15,10 @@ var anchorModule = (function(){
         return lowerCaseString
     }
 
-
+    var init = function() {
+        setHeaderId(headers)
+    }
 
 })();
 
 
-setHeaderId(headers)
