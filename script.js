@@ -21,7 +21,7 @@ var setHeaderId = function(headers) {
 
 
 var createAnchorID = function(element) {
-    var removeApostrophe = element.textContent.replace(/^\w/g,"");
+    var removeApostrophe = element.textContent.replace(/\w/g,"");
     var lettersOnly = removeApostrophe.match(/[a-zA-Z]+/g);
 
     
