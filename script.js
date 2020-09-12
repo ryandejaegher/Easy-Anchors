@@ -3,5 +3,10 @@ var module = (function(){
     var sayName = function() {
         console.log('HI ' + name)
     }
+
+    return  {
+        name,
+        
+    }
 })();
 
