@@ -19,6 +19,10 @@ var anchorModule = (function(){
         setHeaderId(headers)
     }
 
+
+    return {
+        init
+    }
 })();
 
 
