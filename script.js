@@ -24,7 +24,7 @@ var createAnchorID = function(element) {
     var removeWhitespace = element.textContent.replace("^\w",'')
     var split = element.textContent.split(/[\s,']/gi);
     
-    console.log(removeWhitespacer)
+    console.log(removeWhitespace)
 }
 
 var header = document.querySelector('h4');
