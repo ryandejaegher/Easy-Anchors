@@ -19,7 +19,7 @@ var easyAnchor = (function(){
         }
 
 
-        var removeApostrophe = element.textContent.replace(/[^\w ]/g," ");
+        var removeApostrophe = item.replace(/[^\w ]/g," ");
         
         var lowerCaseString = removeApostrophe.match(/[a-zA-Z]+/g).join('-').toLowerCase();
         var firstWord = lowerCaseString.split('-',2).join('-')
