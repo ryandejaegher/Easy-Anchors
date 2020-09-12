@@ -18,7 +18,7 @@ var easyAnchor = (function(){
         }
         }
 
-
+        console.log(text);
         var removeApostrophe = text.replace(/[^\w ]/g," ");
         
         var lowerCaseString = removeApostrophe.match(/[a-zA-Z]+/g).join('-').toLowerCase();
