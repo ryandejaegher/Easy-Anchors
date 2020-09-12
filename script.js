@@ -13,7 +13,7 @@ var easyAnchor = (function(){
         var removeApostrophe = element.textContent.replace(/[^\w ]/g,"");
         var lowerCaseString = removeApostrophe.match(/[a-zA-Z]+/g).join('-').toLowerCase()
         console.log(lowerCaseString.split('-',3).join('-'))
-        console.log(lowerCaseString)
+
         return lowerCaseString
     }
 
