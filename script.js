@@ -19,6 +19,10 @@ var anchorModule = (function(){
         setHeaderId(headers)
     }
 
+    var hi = function(message) {
+        console.log
+    }
+
 
     return {
         init:init
