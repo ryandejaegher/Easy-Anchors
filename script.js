@@ -24,7 +24,7 @@ var splitText = function(element) {
     var lettersOnly = element.textContent.match(/[a-zA-Z]/g)
     var split = element.textContent.split(/[\s,']/gi);
     
-    console.log(split)
+    console.log(lettersOnly)
 }
 
 var header = document.querySelector('h4');
