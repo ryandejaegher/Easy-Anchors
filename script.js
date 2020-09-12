@@ -25,7 +25,7 @@ var createAnchorID = function(element) {
     var lettersOnly = element.textContent.match(/[a-zA-Z]+/g)
     var split = element.textContent.split(/[\s,']/gi);
     
-    console.log(removeWhitespace)
+    console.log(removeWhitespacer)
 }
 
 var header = document.querySelector('h4');
