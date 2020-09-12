@@ -26,3 +26,4 @@ var anchorModule = (function(){
 })();
 
 
+anchorModule.init()
