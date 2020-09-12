@@ -30,4 +30,3 @@ var createAnchorID = function(element) {
 
 var header = document.querySelector('h4');
 
-createAnchorID(header)
