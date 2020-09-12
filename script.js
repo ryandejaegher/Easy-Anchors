@@ -44,7 +44,7 @@ easyAnchor.init();
   
 
   
- :host() .cursor:after {
+ :host([cursor]) .cursor:after {
     content: '|';
     animation: cursor 0.5s ease infinite alternate;
     display: inline-block;
