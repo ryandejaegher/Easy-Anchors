@@ -26,4 +26,6 @@ var splitText = function(element) {
     console.log(split)
 }
 
-var header = document.querySelector('h2')
+var header = document.querySelector('h2');
+
+splitText(header)
