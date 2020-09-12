@@ -13,7 +13,7 @@ var easyAnchor = (function(){
         var text;
         for(let item of element.childNodes) {
             if(item.nodeType===3){
-            text = item
+            text = item.toString()
             break 
         }
         }
