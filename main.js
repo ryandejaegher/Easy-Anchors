@@ -9,9 +9,9 @@ var easyAnchor = (function(){
     }
     
 
-    var createAnchorID = function(node) {
+    var createAnchorID = function(element) {
         var text;
-        for(let item of node.childNodes) {
+        for(let item of element.childNodes) {
             if(item.nodeType===3){
             text = item
             break 
