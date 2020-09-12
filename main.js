@@ -10,7 +10,7 @@ var easyAnchor = (function(){
 
     var createAnchorID = function(element) {
         var removeApostrophe = element.textContent.replace(/[^\w ]/g," ");
-        if
+        
         var lowerCaseString = removeApostrophe.match(/[a-zA-Z]+/g).join('-').toLowerCase();
         var firstWord = lowerCaseString.split('-',2).join('-')
         return firstWord
