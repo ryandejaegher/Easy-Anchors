@@ -25,7 +25,7 @@ var anchorModule = (function(){
 
 
     return {
-        init:init
+        init:init,
         hi:hi
     }
 })();
