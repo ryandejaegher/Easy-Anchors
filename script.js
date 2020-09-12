@@ -20,7 +20,7 @@ var setHeaderId = function(headers) {
 }
 
 
-var createID = function(element) {
+var createAnchorID = function(element) {
     var replace 
     var lettersOnly = element.textContent.match(/[a-zA-Z]+/g)
     var split = element.textContent.split(/[\s,']/gi);
@@ -30,4 +30,4 @@ var createID = function(element) {
 
 var header = document.querySelector('h4');
 
-splitText(header)
+createAnchorID(header)
