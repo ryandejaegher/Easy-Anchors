@@ -22,7 +22,7 @@ var setHeaderId = function(headers) {
 
 var splitText = function(element) {
     var split = element.textContent.split(' ');
-    split.join()
+    split.join('-')
     console.log(split)
 }
 
