@@ -25,7 +25,7 @@ var createAnchorID = function(element) {
     var removeApostrophe = element.textContent.replace(/[^\w ]/g,"");
     var replaceWhiteSpace = removeApostrophe.replace(/\s/g,'-')
     var lowerCaseString = replaceWhiteSpace.match(/[a-zA-Z]+/g)
-    return lowerCaseString
+    return lowerCaseString.toLowerCase()
 }
 
 var header = document.querySelector('h4');
