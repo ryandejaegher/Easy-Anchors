@@ -24,6 +24,7 @@ var createAnchorID = function(element) {
     var removeApostrophe = element.textContent.replace(/[^\w ]/,"");
     var replaceWhiteSpace = removeApostrophe.replace(/\s+/g,'-')
     lowerCaseString = replaceWhiteSpace.toLowerCase()
+    console.log(lowerCaseString)
     return lowerCaseString
 }
 
