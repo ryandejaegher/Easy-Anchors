@@ -16,6 +16,7 @@ var headers = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
 var setHeaderId = function(headers) {
     headers.forEach(element => {
         element.id = createAnchorID(element);
+        console.log(element.id)
     });
 }
 
